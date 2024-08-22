@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SwiftMT799Processor.props" />
+</Project>

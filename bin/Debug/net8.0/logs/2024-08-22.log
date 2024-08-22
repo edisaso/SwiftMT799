@@ -1,0 +1,489 @@
+2024-08-22 19:01:51.5515|DEBUG|SwiftMT799Processor.Program|init main
+2024-08-22 19:01:52.0701|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-08-22 19:01:52.5118|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-08-22 19:01:52.6034|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5137
+2024-08-22 19:01:52.6034|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly SwiftMT799Processor
+2024-08-22 19:01:52.6034|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-08-22 19:01:52.6034|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-08-22 19:01:52.6034|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\ProCreditBank\SwiftMT799Processor
+2024-08-22 19:01:52.6034|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-08-22 19:02:04.5715|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFF" accepted.
+2024-08-22 19:02:04.5715|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFF" started.
+2024-08-22 19:02:04.6061|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5137/ - - -
+2024-08-22 19:02:04.6061|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-08-22 19:02:04.6195|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/'
+2024-08-22 19:02:04.6195|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-08-22 19:02:04.6332|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2024-08-22 19:02:04.6332|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-08-22 19:02:04.6332|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFF" completed keep alive response.
+2024-08-22 19:02:04.6332|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5137/ - 404 0 - 37.2728ms
+2024-08-22 19:02:04.6332|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5137/, Response status code: 404
+2024-08-22 19:02:13.4413|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5137/swagger - - -
+2024-08-22 19:02:13.4413|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger'
+2024-08-22 19:02:13.4413|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-08-22 19:02:13.4413|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFF" completed keep alive response.
+2024-08-22 19:02:13.4413|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5137/swagger - 301 0 - 2.7444ms
+2024-08-22 19:02:13.4548|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5137/swagger/index.html - - -
+2024-08-22 19:02:13.4548|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-08-22 19:02:13.4548|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-08-22 19:02:13.5112|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFF" completed keep alive response.
+2024-08-22 19:02:13.5112|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5137/swagger/index.html - 200 - text/html;charset=utf-8 56.4997ms
+2024-08-22 19:02:13.5377|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5137/swagger/swagger-ui.css - - -
+2024-08-22 19:02:13.5377|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui.css'
+2024-08-22 19:02:13.5377|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-08-22 19:02:13.5443|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFG" accepted.
+2024-08-22 19:02:13.5443|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFG" started.
+2024-08-22 19:02:13.5443|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFH" accepted.
+2024-08-22 19:02:13.5443|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFH" started.
+2024-08-22 19:02:13.5443|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5137/swagger/swagger-ui-bundle.js - - -
+2024-08-22 19:02:13.5443|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2024-08-22 19:02:13.5443|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-08-22 19:02:13.5443|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5137/swagger/swagger-ui-standalone-preset.js - - -
+2024-08-22 19:02:13.5443|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2024-08-22 19:02:13.5443|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-08-22 19:02:13.5620|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-08-22 19:02:13.5620|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-08-22 19:02:13.5620|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-08-22 19:02:13.5620|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFG" completed keep alive response.
+2024-08-22 19:02:13.5620|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFH" completed keep alive response.
+2024-08-22 19:02:13.5620|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFF" completed keep alive response.
+2024-08-22 19:02:13.5620|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5137/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 18.9275ms
+2024-08-22 19:02:13.5620|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5137/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 18.9722ms
+2024-08-22 19:02:13.5620|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5137/swagger/swagger-ui.css - 200 143943 text/css 26.6331ms
+2024-08-22 19:02:13.7411|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5137/swagger/v1/swagger.json - - -
+2024-08-22 19:02:13.7417|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-22 19:02:13.7417|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-08-22 19:02:13.7575|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5137/swagger/favicon-32x32.png - - -
+2024-08-22 19:02:13.7575|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/favicon-32x32.png'
+2024-08-22 19:02:13.7575|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-08-22 19:02:13.7575|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-08-22 19:02:13.7575|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFH" completed keep alive response.
+2024-08-22 19:02:13.7575|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5137/swagger/favicon-32x32.png - 200 628 image/png 1.4251ms
+2024-08-22 19:02:13.7887|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFG" completed keep alive response.
+2024-08-22 19:02:13.7887|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5137/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 47.6868ms
+2024-08-22 19:03:07.6152|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - - 0
+2024-08-22 19:03:07.6207|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/SwiftMT799'
+2024-08-22 19:03:07.6207|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)' with route pattern 'api/SwiftMT799' is valid for the request path '/api/SwiftMT799'
+2024-08-22 19:03:07.6207|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:03:07.6207|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-08-22 19:03:07.6207|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:03:07.6390|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ProcessMessage", controller = "SwiftMT799"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessMessage() on controller SwiftMT799Controller (SwiftMT799Processor).
+2024-08-22 19:03:07.6390|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-08-22 19:03:07.6390|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-08-22 19:03:07.6390|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-08-22 19:03:07.6390|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-08-22 19:03:07.6390|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-08-22 19:03:07.6390|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:03:07.6390|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:03:07.6506|ERROR|SwiftMT799Controller|Error processing message|System.InvalidOperationException: Value must be set.
+   at Microsoft.Data.Sqlite.SqliteParameter.Bind(sqlite3_stmt stmt)
+   at Microsoft.Data.Sqlite.SqliteParameterCollection.Bind(sqlite3_stmt stmt)
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at DatabaseService.SaveMessageAsync(SwiftMT799Message message) in D:\ProCreditBank\SwiftMT799Processor\DatabaseService.cs:line 47
+   at SwiftMT799Controller.ProcessMessage() in D:\ProCreditBank\SwiftMT799Processor\SwiftMT799Controller.cs:line 29
+2024-08-22 19:03:07.6710|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-08-22 19:03:07.6710|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-08-22 19:03:07.6710|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-22 19:03:07.6710|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-22 19:03:07.6710|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-08-22 19:03:07.6710|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2024-08-22 19:03:07.6710|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action SwiftMT799Controller.ProcessMessage (SwiftMT799Processor) in 31.9492ms
+2024-08-22 19:03:07.6795|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:03:07.6795|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFG" completed keep alive response.
+2024-08-22 19:03:07.6795|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - 500 - text/plain;+charset=utf-8 64.7826ms
+2024-08-22 19:03:29.2598|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - - 0
+2024-08-22 19:03:29.2598|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/SwiftMT799'
+2024-08-22 19:03:29.2598|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)' with route pattern 'api/SwiftMT799' is valid for the request path '/api/SwiftMT799'
+2024-08-22 19:03:29.2598|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:03:29.2598|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-08-22 19:03:29.2598|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:03:29.2598|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ProcessMessage", controller = "SwiftMT799"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessMessage() on controller SwiftMT799Controller (SwiftMT799Processor).
+2024-08-22 19:03:29.2598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-08-22 19:03:29.2598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-08-22 19:03:29.2598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-08-22 19:03:29.2598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-08-22 19:03:29.2598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-08-22 19:03:29.2598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:03:29.2598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:03:29.2598|ERROR|SwiftMT799Controller|Error processing message|System.InvalidOperationException: Value must be set.
+   at Microsoft.Data.Sqlite.SqliteParameter.Bind(sqlite3_stmt stmt)
+   at Microsoft.Data.Sqlite.SqliteParameterCollection.Bind(sqlite3_stmt stmt)
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at DatabaseService.SaveMessageAsync(SwiftMT799Message message) in D:\ProCreditBank\SwiftMT799Processor\DatabaseService.cs:line 47
+   at SwiftMT799Controller.ProcessMessage() in D:\ProCreditBank\SwiftMT799Processor\SwiftMT799Controller.cs:line 29
+2024-08-22 19:03:29.2598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-08-22 19:03:29.2598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-08-22 19:03:29.2598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-22 19:03:29.2598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-22 19:03:29.2598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-08-22 19:03:29.2598|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2024-08-22 19:03:29.2598|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action SwiftMT799Controller.ProcessMessage (SwiftMT799Processor) in 5.8246ms
+2024-08-22 19:03:29.2598|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:03:29.2728|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFG" completed keep alive response.
+2024-08-22 19:03:29.2728|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - 500 - text/plain;+charset=utf-8 13.1491ms
+2024-08-22 19:04:24.0329|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFF" disconnecting.
+2024-08-22 19:04:24.0329|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFF" stopped.
+2024-08-22 19:04:24.0329|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN62OF231IFF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-22 19:04:25.0458|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFH" disconnecting.
+2024-08-22 19:04:25.0458|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFH" stopped.
+2024-08-22 19:04:25.0458|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN62OF231IFH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-22 19:04:39.3183|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2024-08-22 19:04:39.3183|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2024-08-22 19:04:39.3222|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFG" disconnecting.
+2024-08-22 19:04:39.3222|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OF231IFG" stopped.
+2024-08-22 19:04:39.3222|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN62OF231IFG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-22 19:04:39.3222|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2024-08-22 19:31:24.7717|DEBUG|SwiftMT799Processor.Program|init main
+2024-08-22 19:31:25.3127|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-08-22 19:31:25.5574|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-08-22 19:31:25.5943|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5137
+2024-08-22 19:31:25.5943|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly SwiftMT799Processor
+2024-08-22 19:31:25.5943|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-08-22 19:31:25.5943|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-08-22 19:31:25.5943|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\ProCreditBank\SwiftMT799Processor
+2024-08-22 19:31:25.5943|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-08-22 19:31:30.4034|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OVGBALMF" accepted.
+2024-08-22 19:31:30.4034|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OVGBALMF" started.
+2024-08-22 19:31:30.4372|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5137/ - - -
+2024-08-22 19:31:30.4372|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-08-22 19:31:30.4492|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/'
+2024-08-22 19:31:30.4492|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-08-22 19:31:30.4641|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2024-08-22 19:31:30.4641|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-08-22 19:31:30.4641|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OVGBALMF" completed keep alive response.
+2024-08-22 19:31:30.4641|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5137/ - 404 0 - 34.0380ms
+2024-08-22 19:31:30.4641|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5137/, Response status code: 404
+2024-08-22 19:31:33.7505|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5137/swagger/index.html - - -
+2024-08-22 19:31:33.7505|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-08-22 19:31:33.7505|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-08-22 19:31:33.8088|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OVGBALMF" completed keep alive response.
+2024-08-22 19:31:33.8088|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5137/swagger/index.html - 200 - text/html;charset=utf-8 58.4794ms
+2024-08-22 19:31:34.0288|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5137/swagger/v1/swagger.json - - -
+2024-08-22 19:31:34.0288|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-22 19:31:34.0288|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-08-22 19:31:34.0853|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OVGBALMF" completed keep alive response.
+2024-08-22 19:31:34.0855|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5137/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 56.7100ms
+2024-08-22 19:31:47.5444|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - - 0
+2024-08-22 19:31:47.5444|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/SwiftMT799'
+2024-08-22 19:31:47.5444|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)' with route pattern 'api/SwiftMT799' is valid for the request path '/api/SwiftMT799'
+2024-08-22 19:31:47.5444|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:31:47.5444|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-08-22 19:31:47.5444|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:31:47.5688|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ProcessMessage", controller = "SwiftMT799"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessMessage() on controller SwiftMT799Controller (SwiftMT799Processor).
+2024-08-22 19:31:47.5712|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-08-22 19:31:47.5712|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-08-22 19:31:47.5712|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-08-22 19:31:47.5712|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-08-22 19:31:47.5712|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-08-22 19:31:47.5712|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:31:47.5712|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:31:47.5712|ERROR|SwiftMT799Controller|Error processing message|System.InvalidOperationException: Value must be set.
+   at Microsoft.Data.Sqlite.SqliteParameter.Bind(sqlite3_stmt stmt)
+   at Microsoft.Data.Sqlite.SqliteParameterCollection.Bind(sqlite3_stmt stmt)
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at DatabaseService.SaveMessageAsync(SwiftMT799Message message) in D:\ProCreditBank\SwiftMT799Processor\Services\DatabaseService.cs:line 44
+   at SwiftMT799Controller.ProcessMessage() in D:\ProCreditBank\SwiftMT799Processor\Controllers\SwiftMT799Controller.cs:line 37
+2024-08-22 19:31:47.5982|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-08-22 19:31:47.5982|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-08-22 19:31:47.5982|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-22 19:31:47.5982|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-22 19:31:47.6005|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-08-22 19:31:47.6005|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2024-08-22 19:31:47.6005|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action SwiftMT799Controller.ProcessMessage (SwiftMT799Processor) in 30.9843ms
+2024-08-22 19:31:47.6005|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:31:47.6005|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OVGBALMF" completed keep alive response.
+2024-08-22 19:31:47.6005|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - 500 - text/plain;+charset=utf-8 64.5386ms
+2024-08-22 19:31:55.2249|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - - 0
+2024-08-22 19:31:55.2249|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/SwiftMT799'
+2024-08-22 19:31:55.2249|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)' with route pattern 'api/SwiftMT799' is valid for the request path '/api/SwiftMT799'
+2024-08-22 19:31:55.2249|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:31:55.2258|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-08-22 19:31:55.2258|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:31:55.2258|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ProcessMessage", controller = "SwiftMT799"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessMessage() on controller SwiftMT799Controller (SwiftMT799Processor).
+2024-08-22 19:31:55.2258|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-08-22 19:31:55.2258|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-08-22 19:31:55.2258|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-08-22 19:31:55.2258|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-08-22 19:31:55.2258|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-08-22 19:31:55.2258|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:31:55.2258|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:31:55.2258|ERROR|SwiftMT799Controller|Error processing message|System.InvalidOperationException: Value must be set.
+   at Microsoft.Data.Sqlite.SqliteParameter.Bind(sqlite3_stmt stmt)
+   at Microsoft.Data.Sqlite.SqliteParameterCollection.Bind(sqlite3_stmt stmt)
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at DatabaseService.SaveMessageAsync(SwiftMT799Message message) in D:\ProCreditBank\SwiftMT799Processor\Services\DatabaseService.cs:line 44
+   at SwiftMT799Controller.ProcessMessage() in D:\ProCreditBank\SwiftMT799Processor\Controllers\SwiftMT799Controller.cs:line 37
+2024-08-22 19:31:55.2258|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-08-22 19:31:55.2258|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-08-22 19:31:55.2258|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-22 19:31:55.2258|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-22 19:31:55.2258|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-08-22 19:31:55.2258|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2024-08-22 19:31:55.2258|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action SwiftMT799Controller.ProcessMessage (SwiftMT799Processor) in 5.1509ms
+2024-08-22 19:31:55.2258|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:31:55.2258|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OVGBALMF" completed keep alive response.
+2024-08-22 19:31:55.2258|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - 500 - text/plain;+charset=utf-8 8.6310ms
+2024-08-22 19:32:14.2370|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - - 0
+2024-08-22 19:32:14.2370|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/SwiftMT799'
+2024-08-22 19:32:14.2370|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)' with route pattern 'api/SwiftMT799' is valid for the request path '/api/SwiftMT799'
+2024-08-22 19:32:14.2370|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:32:14.2370|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-08-22 19:32:14.2370|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:32:14.2370|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ProcessMessage", controller = "SwiftMT799"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessMessage() on controller SwiftMT799Controller (SwiftMT799Processor).
+2024-08-22 19:32:14.2370|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-08-22 19:32:14.2370|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-08-22 19:32:14.2370|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-08-22 19:32:14.2370|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-08-22 19:32:14.2370|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-08-22 19:32:14.2370|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:32:14.2370|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:32:14.2370|ERROR|SwiftMT799Controller|Error processing message|System.InvalidOperationException: Value must be set.
+   at Microsoft.Data.Sqlite.SqliteParameter.Bind(sqlite3_stmt stmt)
+   at Microsoft.Data.Sqlite.SqliteParameterCollection.Bind(sqlite3_stmt stmt)
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at DatabaseService.SaveMessageAsync(SwiftMT799Message message) in D:\ProCreditBank\SwiftMT799Processor\Services\DatabaseService.cs:line 44
+   at SwiftMT799Controller.ProcessMessage() in D:\ProCreditBank\SwiftMT799Processor\Controllers\SwiftMT799Controller.cs:line 37
+2024-08-22 19:32:14.2424|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-08-22 19:32:14.2424|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-08-22 19:32:14.2424|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-22 19:32:14.2424|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-22 19:32:14.2424|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-08-22 19:32:14.2424|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2024-08-22 19:32:14.2424|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action SwiftMT799Controller.ProcessMessage (SwiftMT799Processor) in 4.2699ms
+2024-08-22 19:32:14.2424|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:32:14.2424|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OVGBALMF" completed keep alive response.
+2024-08-22 19:32:14.2424|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - 500 - text/plain;+charset=utf-8 6.8886ms
+2024-08-22 19:32:16.6517|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - - 0
+2024-08-22 19:32:16.6517|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/SwiftMT799'
+2024-08-22 19:32:16.6517|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)' with route pattern 'api/SwiftMT799' is valid for the request path '/api/SwiftMT799'
+2024-08-22 19:32:16.6517|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:32:16.6517|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-08-22 19:32:16.6517|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:32:16.6517|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ProcessMessage", controller = "SwiftMT799"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessMessage() on controller SwiftMT799Controller (SwiftMT799Processor).
+2024-08-22 19:32:16.6517|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-08-22 19:32:16.6517|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-08-22 19:32:16.6517|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-08-22 19:32:16.6517|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-08-22 19:32:16.6517|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-08-22 19:32:16.6517|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:32:16.6517|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:32:16.6517|ERROR|SwiftMT799Controller|Error processing message|System.InvalidOperationException: Value must be set.
+   at Microsoft.Data.Sqlite.SqliteParameter.Bind(sqlite3_stmt stmt)
+   at Microsoft.Data.Sqlite.SqliteParameterCollection.Bind(sqlite3_stmt stmt)
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at DatabaseService.SaveMessageAsync(SwiftMT799Message message) in D:\ProCreditBank\SwiftMT799Processor\Services\DatabaseService.cs:line 44
+   at SwiftMT799Controller.ProcessMessage() in D:\ProCreditBank\SwiftMT799Processor\Controllers\SwiftMT799Controller.cs:line 37
+2024-08-22 19:32:16.6517|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-08-22 19:32:16.6517|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-08-22 19:32:16.6517|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-22 19:32:16.6517|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-22 19:32:16.6517|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-08-22 19:32:16.6517|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2024-08-22 19:32:16.6517|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action SwiftMT799Controller.ProcessMessage (SwiftMT799Processor) in 3.6321ms
+2024-08-22 19:32:16.6517|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:32:16.6517|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OVGBALMF" completed keep alive response.
+2024-08-22 19:32:16.6517|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - 500 - text/plain;+charset=utf-8 6.2556ms
+2024-08-22 19:32:18.0250|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - - 0
+2024-08-22 19:32:18.0250|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/SwiftMT799'
+2024-08-22 19:32:18.0250|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)' with route pattern 'api/SwiftMT799' is valid for the request path '/api/SwiftMT799'
+2024-08-22 19:32:18.0250|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:32:18.0250|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-08-22 19:32:18.0250|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:32:18.0250|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ProcessMessage", controller = "SwiftMT799"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessMessage() on controller SwiftMT799Controller (SwiftMT799Processor).
+2024-08-22 19:32:18.0250|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-08-22 19:32:18.0250|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-08-22 19:32:18.0250|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-08-22 19:32:18.0250|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-08-22 19:32:18.0250|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-08-22 19:32:18.0250|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:32:18.0250|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:32:18.0250|ERROR|SwiftMT799Controller|Error processing message|System.InvalidOperationException: Value must be set.
+   at Microsoft.Data.Sqlite.SqliteParameter.Bind(sqlite3_stmt stmt)
+   at Microsoft.Data.Sqlite.SqliteParameterCollection.Bind(sqlite3_stmt stmt)
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at System.Data.Common.DbCommand.ExecuteNonQueryAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at DatabaseService.SaveMessageAsync(SwiftMT799Message message) in D:\ProCreditBank\SwiftMT799Processor\Services\DatabaseService.cs:line 44
+   at SwiftMT799Controller.ProcessMessage() in D:\ProCreditBank\SwiftMT799Processor\Controllers\SwiftMT799Controller.cs:line 37
+2024-08-22 19:32:18.0250|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-08-22 19:32:18.0250|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-08-22 19:32:18.0250|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-22 19:32:18.0250|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-22 19:32:18.0250|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-08-22 19:32:18.0250|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2024-08-22 19:32:18.0250|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action SwiftMT799Controller.ProcessMessage (SwiftMT799Processor) in 3.5747ms
+2024-08-22 19:32:18.0250|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:32:18.0250|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OVGBALMF" completed keep alive response.
+2024-08-22 19:32:18.0250|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - 500 - text/plain;+charset=utf-8 6.3144ms
+2024-08-22 19:33:46.3052|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2024-08-22 19:33:46.3052|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2024-08-22 19:33:46.3052|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OVGBALMF" disconnecting.
+2024-08-22 19:33:46.3052|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62OVGBALMF" stopped.
+2024-08-22 19:33:46.3052|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN62OVGBALMF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-22 19:33:46.3052|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2024-08-22 19:33:51.4153|DEBUG|SwiftMT799Processor.Program|init main
+2024-08-22 19:33:51.5644|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-08-22 19:33:51.6168|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-08-22 19:33:51.6516|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5137
+2024-08-22 19:33:51.6516|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly SwiftMT799Processor
+2024-08-22 19:33:51.6516|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-08-22 19:33:51.6516|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-08-22 19:33:51.6516|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\ProCreditBank\SwiftMT799Processor
+2024-08-22 19:33:51.6516|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-08-22 19:33:53.9815|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62P0R4J7AV" accepted.
+2024-08-22 19:33:53.9815|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62P0R4J7AV" started.
+2024-08-22 19:33:54.0229|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5137/ - - -
+2024-08-22 19:33:54.0229|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-08-22 19:33:54.0411|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/'
+2024-08-22 19:33:54.0411|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-08-22 19:33:54.0590|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2024-08-22 19:33:54.0590|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-08-22 19:33:54.0590|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62P0R4J7AV" completed keep alive response.
+2024-08-22 19:33:54.0590|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5137/ - 404 0 - 43.7116ms
+2024-08-22 19:33:54.0590|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5137/, Response status code: 404
+2024-08-22 19:33:57.3544|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5137/swagger/index.html - - -
+2024-08-22 19:33:57.3544|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-08-22 19:33:57.3544|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-08-22 19:33:57.4137|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62P0R4J7AV" completed keep alive response.
+2024-08-22 19:33:57.4137|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5137/swagger/index.html - 200 - text/html;charset=utf-8 59.4786ms
+2024-08-22 19:33:57.5235|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5137/swagger/v1/swagger.json - - -
+2024-08-22 19:33:57.5235|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-08-22 19:33:57.5235|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-08-22 19:33:57.5715|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62P0R4J7AV" completed keep alive response.
+2024-08-22 19:33:57.5715|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5137/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 48.0986ms
+2024-08-22 19:34:04.8318|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - - 0
+2024-08-22 19:34:04.8376|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/SwiftMT799'
+2024-08-22 19:34:04.8376|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)' with route pattern 'api/SwiftMT799' is valid for the request path '/api/SwiftMT799'
+2024-08-22 19:34:04.8376|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:34:04.8376|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-08-22 19:34:04.8376|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:34:04.8562|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ProcessMessage", controller = "SwiftMT799"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessMessage() on controller SwiftMT799Controller (SwiftMT799Processor).
+2024-08-22 19:34:04.8562|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-08-22 19:34:04.8562|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-08-22 19:34:04.8562|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-08-22 19:34:04.8562|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-08-22 19:34:04.8562|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-08-22 19:34:04.8562|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:34:04.8562|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:34:04.9433|INFO|SwiftMT799Controller|Message processed successfully
+2024-08-22 19:34:04.9460|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-08-22 19:34:04.9460|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-08-22 19:34:04.9460|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-22 19:34:04.9460|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-22 19:34:04.9460|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-08-22 19:34:04.9460|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-08-22 19:34:04.9460|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action SwiftMT799Controller.ProcessMessage (SwiftMT799Processor) in 90.1075ms
+2024-08-22 19:34:04.9460|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:34:04.9460|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62P0R4J7AV" completed keep alive response.
+2024-08-22 19:34:04.9460|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - 200 - text/plain;+charset=utf-8 122.9921ms
+2024-08-22 19:36:16.0592|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62P0R4J7AV" disconnecting.
+2024-08-22 19:36:16.0592|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62P0R4J7AV" stopped.
+2024-08-22 19:36:16.0592|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN62P0R4J7AV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62P0R4J7B0" accepted.
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62P0R4J7B0" started.
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62P0R4J7B1" accepted.
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62P0R4J7B1" started.
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN62P0R4J7B0" received FIN.
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN62P0R4J7B0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62P0R4J7B0" disconnecting.
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62P0R4J7B0" stopped.
+2024-08-22 19:40:05.9963|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - application/json 92
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/SwiftMT799'
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)' with route pattern 'api/SwiftMT799' is valid for the request path '/api/SwiftMT799'
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-08-22 19:40:05.9963|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:40:05.9963|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ProcessMessage", controller = "SwiftMT799"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessMessage() on controller SwiftMT799Controller (SwiftMT799Processor).
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN62P0R4J7B1", Request id "0HN62P0R4J7B1:00000001": started reading request body.
+2024-08-22 19:40:05.9963|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN62P0R4J7B1", Request id "0HN62P0R4J7B1:00000001": done reading request body.
+2024-08-22 19:40:06.1168|INFO|SwiftMT799Controller|Message processed successfully
+2024-08-22 19:40:06.1168|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-08-22 19:40:06.1168|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-08-22 19:40:06.1168|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-22 19:40:06.1168|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-22 19:40:06.1168|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-08-22 19:40:06.1168|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-08-22 19:40:06.1168|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action SwiftMT799Controller.ProcessMessage (SwiftMT799Processor) in 118.1385ms
+2024-08-22 19:40:06.1168|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:40:06.1168|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62P0R4J7B1" completed keep alive response.
+2024-08-22 19:40:06.1168|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - 200 - text/plain;+charset=utf-8 121.2800ms
+2024-08-22 19:41:03.5422|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - application/json 88
+2024-08-22 19:41:03.5422|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/SwiftMT799'
+2024-08-22 19:41:03.5422|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)' with route pattern 'api/SwiftMT799' is valid for the request path '/api/SwiftMT799'
+2024-08-22 19:41:03.5422|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:41:03.5422|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-08-22 19:41:03.5422|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:41:03.5422|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ProcessMessage", controller = "SwiftMT799"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProcessMessage() on controller SwiftMT799Controller (SwiftMT799Processor).
+2024-08-22 19:41:03.5422|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-08-22 19:41:03.5422|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-08-22 19:41:03.5422|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-08-22 19:41:03.5422|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-08-22 19:41:03.5422|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-08-22 19:41:03.5422|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:41:03.5422|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller SwiftMT799Controller (SwiftMT799Processor)
+2024-08-22 19:41:03.5422|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN62P0R4J7B1", Request id "0HN62P0R4J7B1:00000002": started reading request body.
+2024-08-22 19:41:03.5422|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN62P0R4J7B1", Request id "0HN62P0R4J7B1:00000002": done reading request body.
+2024-08-22 19:41:03.6430|INFO|SwiftMT799Controller|Message processed successfully
+2024-08-22 19:41:03.6430|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-08-22 19:41:03.6430|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-08-22 19:41:03.6430|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-22 19:41:03.6430|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-22 19:41:03.6430|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-08-22 19:41:03.6430|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-08-22 19:41:03.6430|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action SwiftMT799Controller.ProcessMessage (SwiftMT799Processor) in 100.2662ms
+2024-08-22 19:41:03.6430|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'SwiftMT799Controller.ProcessMessage (SwiftMT799Processor)'
+2024-08-22 19:41:03.6430|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62P0R4J7B1" completed keep alive response.
+2024-08-22 19:41:03.6430|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5137/api/SwiftMT799 - 200 - text/plain;+charset=utf-8 102.5844ms
+2024-08-22 19:43:14.2428|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62P0R4J7B1" disconnecting.
+2024-08-22 19:43:14.2428|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN62P0R4J7B1" stopped.
+2024-08-22 19:43:14.2428|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN62P0R4J7B1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-22 20:12:56.7077|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2024-08-22 20:12:56.7077|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2024-08-22 20:12:56.7138|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
