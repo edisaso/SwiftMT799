@@ -1,5 +1,3 @@
-Certainly! Here's a `README.md` file that you can include with your .NET 8 Web API project:
-
 ```markdown
 # Swift MT799 Processor Web API
 
