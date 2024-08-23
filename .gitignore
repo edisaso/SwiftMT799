@@ -1,0 +1,71 @@
+# .NET Core/ASP.NET Core
+
+## Ignore build outputs
+bin/
+obj/
+
+## Ignore user-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore Logs
+Logs/
+*.log
+
+## Ignore database files
+*.db
+*.sqlite
+*.sqlite3
+
+## Ignore VS Code settings
+.vscode/
+
+## Ignore Rider settings
+.idea/
+
+## Ignore Visual Studio files
+.vs/
+*.vcxproj.user
+*.pdb
+
+## Ignore publish outputs
+publish/
+publish_output/
+
+## Ignore configuration files
+appsettings.Development.json
+appsettings.Local.json
+
+## Ignore NLog configuration files if customized per environment
+nlog.config
+
+# Ignore Mac-specific files
+.DS_Store
+
+# Ignore npm packages
+node_modules/
+
+# Ignore JetBrains Rider files
+.idea/
+
+# Ignore secrets.json, used for storing sensitive data locally
+secrets.json
+
+# Ignore the .env file if used for environment variables
+.env
+
+# Ignore dependency manager directories
+packages/
+.nuget/
+
+# Ignore Recycle Bin used on Mac
+.Trash-*
+
+# Ignore dotnet specific
+.dotnet/
+
+# Ignore temporary files created by NuGet package manager
+*.nupkg
